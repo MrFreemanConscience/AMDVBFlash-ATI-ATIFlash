@@ -11,7 +11,7 @@ AMD has changed the behavior of AMDVBFlash in newer versions. It now requires a 
 
 Download:
 ---------
-[Download ABDVBFlash for Windows 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/amdvbflash_win_3.31.zip)
+[Download AMDVBFlash v.3.31 for WINDOWS 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/amdvbflash_win_3.31.zip)
 
 Version History
 ---------------
