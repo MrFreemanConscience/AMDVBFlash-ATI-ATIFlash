@@ -10,11 +10,14 @@ AMD has changed the behavior of AMDVBFlash in newer versions. It now requires a 
 Version History
 ---------------
 3.31 (January 28th, 2022)
-Added support for Navi 24 (RX 6500 XT, RX 6400 and others)
++ Added support for Navi 24 (RX 6500 XT, RX 6400 and others)
+
 3.20 (June 7th, 2021)
-Added support for Radeon RX 6900 XT XTXH
++ Added support for Radeon RX 6900 XT XTXH
+
 4.71 (May 20th, 2021)
-Adds support to flash Radeon RX 6900 XT Navi 21 XTXH chips (device ID 73AF)
++ Adds support to flash Radeon RX 6900 XT Navi 21 XTXH chips (device ID 73AF)
+
 3.15 (April 19th, 2021)
-Adds support for AMD Radeon RX 6700 XT, RX 6800, RX 6800 XT, RX 6900 XT
-Adds AMDVBFlashDriverInstaller.exe, written by us at TPU, which lets you easily install/uninstall the AMD driver that's now required to execute flashing
++ Adds support for AMD Radeon RX 6700 XT, RX 6800, RX 6800 XT, RX 6900 XT
++ Adds AMDVBFlashDriverInstaller.exe, written by us at TPU, which lets you easily install/uninstall the AMD driver that's now required to execute flashing
