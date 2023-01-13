@@ -1,0 +1,484 @@
+AMDVBFLASH EXTERNAL - WINDOWS
+========================================
+[3.31] Nov 10,2021
+	- Added additional device id's
+
+[3.30] Nov 04,2021
+	- Added additional device id's
+
+[3.29] Oct 18,2021
+	- Added additional device id's
+
+[3.28] Oct 01,2021
+	- Added fix for warning for shutdown/reboot while flashing
+
+[3.27] Sept 30,2021
+	- Added additional device id's.
+	- Fix for installer issue
+	- Added support for -skip_ulps and -enable_warning options in the tool as part of tool improvement (details in help section of the tool)
+	- Added support in the tool for the user to provide blue screen alert in shutdown/restart screen in case some abnormal restart/reboot triggered during flashing in process.
+
+[3.26] Aug 26,2021
+	- Added additional device id's.
+
+[3.25] Aug 13,2021
+	- Added additional device id's.
+
+[3.24] Aug 06,2021
+	- Added additional device id's.
+
+[3.23] July 09,2021
+	- Added additional device id's.
+
+[3.22] June 09,2021
+	- Added additional device id's.
+	
+[3.21] Apr 17,2021
+	- Added additional device id's.
+	
+[3.20] Feb 23,2021
+	- Added additional device id's.
+	
+[3.19] Jan 20,2021
+	- Added additional device id's.
+	
+[3.18] Dec 11,2020
+	- Added additional device id's.
+	
+[3.17] Dec 09,2020
+	- Added additional device id's.
+	
+[3.16] Nov 30,2020
+	- Added additional device id's.
+	
+[3.15] Oct 29,2020
+	- Added additional device id's.
+	
+[3.14] Oct 01,2020
+	- Added additional device id's.
+	
+[3.13] Sept 15,2020
+	- Fix for GFX register accessing to skip GFXOFF stuck issue
+	
+[3.12] Aug 14,2020
+	- Added support for additional device id.
+	
+[3.11] June 12,2020
+	- Added support for Navi21 device id.
+	
+[3.10] April 20,2020
+	- Added support for Navi12 additional device id.
+	
+[3.09] April 13,2020
+	- Modified logic for CU count check
+	- Removed extra space in data file to fix parsing issue.
+	
+[3.08] March 09,2020
+	- Added support for additional device id's for Ellesmere.
+	- Added support for P/N check on windows during flashing
+	- Modified check for Max bus number supported by tool
+	
+[3.07] Feb 28,2020
+	- Added support for Navi14 specific variant.
+	
+[3.06] Feb 19,2020
+	- Added support for additional device id's for Ellesmere.
+	
+[3.05] Feb 12,2020
+	- Added support for additional device id's for Ellesmere.
+	
+[3.04] Dec 23,2019
+	- Fixed support for Navi14 not able to detect specific variant (fix for version 3.03 release).
+	
+[3.03] Dec 10,2019
+	- Added support for Navi14 specific variant.
+	
+[3.02] Dec 03,2019
+	- Fix for AMDVBFlash GUI
+	
+[3.01] Oct 29,2019
+	- Navi10 and Navi14 specific changes updated.
+	
+[3.00] Oct 21,2019
+	- Added support to skip already-programmed check -fa option in external version
+	- Added support for Navi14 specific variants.
+	
+[2.99] Oct 04,2019
+	- Added support for skip P/N check -fp option in external version
+	- Added additional checks for Navi10 devices.
+
+[2.98] AUG 30,2019
+	- Modified checks for Navi10 devices.
+	
+[2.97] Jul 23,2019
+	- Added support for -s option for external version
+	- Added support for additional rom chips.
+
+[2.94] June 28,2019
+	- Added support for external version
+	- Added installer package support for the tool
+	- Fixed Navi10 specific changes.
+
+[2.93] Feb 27,2019
+   	- Navi10 support updated.
+
+[2.92] Feb 15,2019
+   	- Navi10 and Navi14 specific updates.
+	- Incorporated changes done in PSP directory.
+	- Removed dependency on ULPSCtrl.dll as part of package.
+   
+[2.91] Feb 04,2019
+   - Support added for Navi14.
+   
+[2.90] Jan 21,2019
+   - Support added for amdvbflash 64 bit on windows.
+
+[2.89] Dec 5,2018
+   - RSA SIgnature check fixed.
+   
+[2.88] Nov 29,2018
+   - Support added for Navi10.
+
+[2.87] Sep 28,2018
+   - Support added for Polaris30 and Polaris20xl.
+   
+[2.86] Sep 18,2018
+   - Increased the MAX device listed to 20 by amdvbflash tool.
+   
+[2.85] Aug 09,2018
+   - Fix for FB address assigned above 4G/64 bit
+
+[2.84] May 24,2018
+   - PLAT-31096 Winflash tool issue on win10 RS4 
+
+[2.83] Mar 1,2018
+   - Support for Vega20 added
+
+[2.82] Oct 12,2017
+   - Support for Vega12 added
+
+[2.81] Aug 22, 2017
+   - Add support for W25Q80 (VCESWT-2415)
+
+[2.80] Aug 14, 2017
+   - VCESWT-120 atiflash command "-pak" needs extension ".exe" typed in windows command line window (Redmine ID 15635)
+   - PLAT-23730 Need ATIFLASH utility support for 8Mbit ROM from Gigadevice
+   - VCESWT-2249 Replace ATI logo with AMD Radeon
+
+[2.79] Jun 6, 2017
+   - Fix application crash when SST25VF020B is programmed
+   - Speed improvement
+
+[2.78] May 16, 2017
+   - Add support for SST25VF020B
+   - Add support for MX25V4035F 
+   - Add support for MX25V8035F 
+   - Add support for MX25L8006E 
+
+[2.77] Mar 22, 2017
+   - Support for Polaris22 added.
+
+[2.76] Feb 07, 2017
+   - CI ASICs support fixed.
+
+[2.75] Nov 29, 2016
+   - Support for Polaris12 and Vega10 added.
+
+[2.74] May 12, 2016
+   - Fix checksum calculation to apply only to BIOS size and not whole ROM device.
+   - Add support for GD25Q21B and GD25Q41B devices.
+   - Rename Ellesmere and Baffin to Polaris 10/11.
+   - Fix SN and ISR not stored.
+
+[2.73]
+	- GUI improvement
+	- Fix: product name not shown
+	- Fix: long product causes application crash
+
+[2.72]
+	- Ellesmere and Baffin support
+	- M25P80 ROM support
+
+[2.71]
+	- Fix Fiji image not fully written in GUI version
+	- Speed improvement
+
+[2.70]
+	- Fiji support added
+	- SN and ISR number locations changed.
+
+[2.69]
+	- Fix HP workstation problem with big ACPI table
+
+[2.6.7]
+	- disable sec update feature
+
+[2.6.6B]
+	- add support for tonga
+[2.6.6]
+	- add support for iceland
+
+
+[2.6.5a]
+	- fix can not flash hawaii in windows bug
+
+[2.6.5]
+	- merge changes from linux version
+
+[2.6.1_Win7PE]
+	- fix issues found in Hawaii bring up
+
+[2.6.1]
+	- fix issues found in Hawaii bring up
+
+[2.6.0_Win7PE]
+	- Add consle app to WinPE build
+
+[2.6.0]
+	- Add support for Hawaii
+
+[2.5.0]
+	- Sync Bonaire A1 workaround from linux codebase
+	- Add a win32 command line version
+
+[2.4.0]
+	- share with EFI code base
+
+[2.4.0_Win7PE]
+	- fix -ai redirect bug
+
+[2.3.0_ASUS_BUILD]
+        - Build for ASUS
+
+[2.3.0_Win7PE]
+	- Display more information about VBIOS image when using "-ai" command
+
+[2.2.0_Win7PE]
+	- Added Support for Win7PE
+
+[2.2.0]
+	- updated for Hainan Asic ID
+
+[2.1.0]
+	- Updated for Bonaire Asic ID.
+	- Bug fix for previous release
+
+[2.0.1.21]
+	   - fix issue in VBIOS for Southern Islands/London/Sea Islands/Solar System products (except for Verde/Chelsea/Heathrow and Bonaire/Saturn).
+
+[2.0.1.20]
+	   - make "-noisrsn" and "-noprodsn" the default option so that flash tool will not overwrite any VBIOS content by default.  For any user who want to keep the onboard ISR Number and Prod SN, add "-keepisrsn" and "-keepprodsn" options to retain the original behavior
+
+[2.0.1.19]
+	   - Updated for Oland/Mars Asic ID.
+[2.0.1.18]
+           - Fixed not able to read bios with 2 digit extention file name when running -ai
+           - Added several ROM Chips
+           - Fixed checksum issue when flashing boards with ISR already existing
+           - Fixed Pitcarin pro hang issue
+
+[2.0.1.17] - Fixed problem creating package that flashes Cayman dual rom.
+           - Fixed problem flashing with -pavbpn can not capture the entire 17 digits of the new format bios p/n.
+           - Added Pitcarine and Verde device ID
+           - Fix problem when locking/unlocking rom, the system does not display any message.
+           - Fix error flashing SST25VF512 Rom type.
+
+[2.0.1.16] - Fixed -pak displaying random characters when packing was successful. Added the correct pop up message.
+           - Fixed -ai does not display all the fields. 
+
+[2.0.1.15] - Added -noisr and -nosn flag to erase the existing ISR and SN data.
+           - Updated for Lombok Asic ID.
+
+[2.0.1.14] - Added feature to preserve ISR data after flashing.
+           - Added caymandualrom = true/false line option when using pak command to package specific builds of winflash. 
+           - Updated functionality for the newest Cayman boards to sync up with Atiflash.  
+           
+[2.0.1.13] - fixed bug for barts Bios P/N not showing last 2 digits due to new bios p/n format.
+
+[2.0.1.12] - add Northern Islands support
+           - fix issue with Hemlock boards
+           - fix issue wih hangs after returning from S3
+           - fix -mi flag
+
+[2.0.1.11] - add Redwood/Cedar support
+           - add lockrom/unlock rom support
+           - update -mb command to support new location os SSID/SSVID rom straps on Evergreen series ASICs
+
+[2.0.1.10] - add Cypress/Juniper support
+
+[2.0.1.9] - fix bug with hang on 64-bit Operating Systems
+
+[2.0.1.8] - Performance improve on SST rom flash
+
+[2.0.1.7] - Add RV730/710/740 support
+		  - Fix Windows vista issues
+
+[2.0.1.6] - Remove the progress bar completely with "quiet" option
+
+[2.0.1.5] - Fix "quiet" option, No progress bar will display.
+
+[2.0.1.4] - Fix Save BIOS function to based on the current BIOS size
+	  - Fix "quiet" option, not to display the progress bar
+
+[2.0.1.3] - Fix SSID check in ATIRef file.
+
+[2.0.1.2] - Fix Vista to work on all Motherboards
+
+[2.0.1.1] - Fix Vista to use Primary card
+	    Fix hangs with R680 on some systems
+
+[2.0.1.0] - Add Progress Bar while flashing BIOS
+	  - Display Marketing Name when Driver is not installed in the system.
+	    it can import the device ID, marketing name information on the external file "atiref.dat"
+	     The file will include the Asic name, device ID, marketing name and sub system device ID.
+	     here is the sample of the file entry:
+	     RV630, 0x9100, ATI Radeon x5000, 0x1234
+	  - It will display the final flash result on the same dialog box if there is more than 1 card,
+	    it will only ask user to reboot the system when all flash are done.
+
+[2.0.0.9] - fix pa check parameters
+
+[2.0.0.8] - Add RV770 support
+
+[2.0.0.7] - fixed pak option to have popup error when infile is missing
+	  - add option (excl_memtrain_dtable) to keep memory training information while flashing new bios
+	  - add partial check for -pavbpn
+	  - fixed part number display on screen
+
+[2.0.0.6] - update help menu
+
+[2.0.0.5] - add quite mode for saving Rom & display error message when error during saving/flashing bios.
+
+[2.0.0.4] - add quite mode for flashing ROM
+
+[2.0.0.2]
+  - fixed -padevid -passid -pasvid flags when used with the -pak option
+
+[2.0.0.1]
+  - fixed labelling on second cards to use correct description
+  - add -quiet flag to eliminate all message boxes while flashing
+
+[2.0]
+  - fixed errors with reboot prompts when multiple products
+  - fixed errors when reporting engine and memory clocks
+
+[1.2.6.1]
+  - fixed 'Error reading ROM' errors on Ry6xx products
+
+[1.2.6]
+  - added -pavbpn so you can use -pa and supply the VBIOS PN
+[1.2.5]
+  - resolved -pa issue with -padevid specified
+  - removed old/new memory information when displayed after programming (only     applies to legacy Bios) and replaced with old/new device id
+
+[1.2.4]
+  - resolved PCI rom access for M66
+
+[1.2.3]
+  - Added support for FireGL V3350
+  - -ai now displays full PCI ID information
+  - asic revision now displays 'N/A' by default
+
+[1.2.2]
+  -added support for fireMV
+
+[1.2.1]
+  -resolved corrupted -ai output
+
+[1.2.0]
+  - resolved command line issues
+  - removal of help button
+
+[1.1.9]
+  - resolved spaces in file path issues
+  - added support for /h /?
+
+[1.1.8]
+ -ported custom packaging functionality from ATIFlash:
+	-pak <File>             Package an executable for BIOS update according to
+        	                the commands in <File>.
+                	        Config file example:
+                        	   outfile = update.exe
+	                           banner = "Update v1.0"
+        	                   infile = a123.bin
+                	           command = -pa infile
+ - now -h for help + improved command line handling
+ - cleaned up help message box
+
+[1.1.7]
+-added following functionality
+	-fa             Force flashing bypassing already-programmed check.
+	-fm             Force flashing bypassing BIOS memory config check.
+	-fs             Force flashing bypassing BIOS SSID check.
+	-fp             Force flashing bypassing BIOS P/N check.
+	-pa <File>              Write BIOS image <File> to all appropriate adapters.
+	-padevid=<ID>   Use with -pa command to update adapters of specific device ID.
+	-passid=<ID>    Use with -pa command to update adapters of specific SSID.
+	-pasvid=<ID>    Use with -pa command to update adapters of specific SVID.
+
+[1.1.6]
+  -added SiI1930 support for new architecture
+
+[1.1.5]
+  -added SiI1930 support
+  -now supports all command line options available in ATIFlash V1.26
+
+[1.1.4]
+  -Include the Support for RV550/M71
+
+[1.1.3]
+  -fix sst ROM flash issues
+
+[1.1.2]
+  -changing displayed value for New VBOIS Image Size 
+  -from ROM executable size to ROM file size 
+
+[1.1.1]
+  -add support for 96k BIOS images
+
+[1.1.0]
+  - removing the 'force' option
+
+[1.0.9]
+  -add support for EMT 64 bit machines
+
+[1.0.8]
+  -fix display of total/free system memory on 1Gig+ machines
+  -update calculation of total video memory
+
+[1.0.7]
+  -fix issue with backlight blanking on certain LVDS designs.
+
+[1.0.6]
+  -support write-protected sector on 128k serial flash ROMs
+  -improved localization support
+  -IA64 support
+  
+[1.0.5]
+  -disable dynamic clock gating during flash
+  -force gfx link to L0 during flash
+  -change loading for flash library
+[1.0.4]
+ -corrected RV200 ROM detection
+ -add support for RV530/RV515
+ -add VMSIZE flag for Dell branch
+
+[1.0.3]
+  -re-enable P/N for Dell branch
+  -add support for Windows XP64
+  -corrected issues found during QA
+
+[1.0.2]
+  -enable advanced page
+  -complete localization
+  -add SSID/SVID moidication support
+
+[1.0.1]
+  -add support for Intel HT CPU
+  -add additional info on main interface(VBIOS P/N, lenght, CRC)
+  -display marketing name for active videocard
+  -partial localization
+  -remove P/N for Dell branch
+
+[1.0.0]
+ -initial release
