@@ -1,5 +1,5 @@
 # AMDVBFlash-ATI-ATIFlash
-![AMDVBFlash-ATI-ATIFlash][figures/img.png](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/blob/main/6_small-v1649492263.png?raw=true)
+![Scr](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/blob/main/6_small-v1649492263.png?raw=true)
 
 AMD AMDVBFlash is used to flash the graphics card BIOS. The version released by ATI was called ATIFlash or just WinFlash.
 
