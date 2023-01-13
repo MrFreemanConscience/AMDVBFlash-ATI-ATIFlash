@@ -13,7 +13,7 @@ Download:
 ---------
 + [Download AMDVBFlash v3.31 for WINDOWS 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/amdvbflash_win_3.31.zip)
 + [Download AMDVBFlash v4.71 for LINUX](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_4.71_linux/amdvbflash_linux_4.71.zip)
-+ Download AMDVBFlash v4.68 for LINUX](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_4.71_linux/amdvbflash_linux_4.71.zip)
++ Download AMDVBFlash v4.68 for LINUX](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_4.68_DOS/amdvbflash_dos_4.68.zip)
 
 
 Version History
