@@ -1,4 +1,6 @@
 # AMDVBFlash-ATI-ATIFlash
+(https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/blob/main/6_small-v1649492263.png?raw=true)
+
 AMD AMDVBFlash is used to flash the graphics card BIOS. The version released by ATI was called ATIFlash or just WinFlash.
 
 It supports all AMD Radeon graphics cards, like RX 6900 XT, RX 6800 XT, RX 6700 XT, RX 5700, RX 5600, RX 5500. You can also flash the BIOS for all AMD Radeon RX Vega, RX 580, RX 480, and all older ATI cards.
