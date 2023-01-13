@@ -9,6 +9,10 @@ The AMDVBFlash BIOS update software runs under Windows.
 
 AMD has changed the behavior of AMDVBFlash in newer versions. It now requires a constant running Ring-0 kernel-mode driver. This is a security risk, you really only need the driver for a few minutes while saving the BIOS or flashing. That's why AMDVBFlash 3.15 and newer include AMDVBFlashDriverInstaller.exe, which installs/uninstalls the AMD driver with one click. This software was written by us at TPU and is signed digitally with our signature.
 
+Download:
+---------
+[Download ABDVBFlash for Windows 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/amdvbflash_win_3.31.zip)
+
 Version History
 ---------------
 3.31 (January 28th, 2022)
