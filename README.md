@@ -11,7 +11,7 @@ AMD has changed the behavior of AMDVBFlash in newer versions. It now requires a 
 
 Download:
 ---------
-+ [Download AMDVBFlash v3.31 for WINDOWS 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/amdvbflash_win_3.31.zip)
++ [Download AMDVBFlash v3.31 for WINDOWS 32/64](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_3.31_win/atiflash-amdvbflash_3.31.rar)
 + [Download AMDVBFlash v4.71 for LINUX](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_4.71_linux/amdvbflash_linux_4.71.zip)
 + [Download AMDVBFlash v4.68 for DOS](https://github.com/MrFreemanConscience/AMDVBFlash-ATI-ATIFlash/releases/download/amdvbflash_4.68_DOS/amdvbflash_dos_4.68.zip)
 
